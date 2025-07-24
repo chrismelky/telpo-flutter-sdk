@@ -169,7 +169,7 @@ class TelpoThermalPrinter(activity: TelpoFlutterSdkPlugin) {
             super.run()
             try {
                 mUsbThermalPrinter?.reset()
-                mUsbThermalPrinter?.setAlgin(UsbThermalPrinter.ALGIN_LEFT)
+                mUsbThermalPrinter?.setAlgin(UsbThermalPrinter.ALGIN_CENTER)
                 mUsbThermalPrinter?.setLeftIndent(0)
                 mUsbThermalPrinter?.setLineSpace(0)
                 mUsbThermalPrinter?.setGray(7)
